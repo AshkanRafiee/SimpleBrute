@@ -1,7 +1,9 @@
 # SimpleBrute
 Bruteforce Basic HTTP Authentication (Like NLTM)!
 ## Installation 
-```git clone https://github.com/AshkanRafiee/SimpleBrute```
+```bash
+git clone https://github.com/AshkanRafiee/SimpleBrute.git
+```
 ## Usage
 ```bash
 python simplebrute.py
