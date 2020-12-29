@@ -6,6 +6,7 @@ Simply Download the script!
 ```bash
 python simplebrute.py
 ```
+You can also use your username and password list by replacing the default 'usernames.txt' and 'passwords.txt' files.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
