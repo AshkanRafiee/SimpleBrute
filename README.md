@@ -1,7 +1,7 @@
 # SimpleBrute
-Check your "forgotten" username &amp; passwords to your desired url!
+Bruteforce Basic HTTP Authentication (Like NLTM)!
 ## Installation 
-Simply Download the script!
+```git clone https://github.com/AshkanRafiee/SimpleBrute```
 ## Usage
 ```bash
 python simplebrute.py
