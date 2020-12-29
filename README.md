@@ -1,5 +1,5 @@
 # SimpleBrute
-Bruteforce Basic Authentication (Like NLTM)!
+Bruteforce Basic Authentication (Like NTLM)!
 ## Installation 
 ```bash
 git clone https://github.com/AshkanRafiee/SimpleBrute.git
