@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+#Coded By Ashkan Rafiee https://github.com/AshkanRafiee/SimpleBrute/
 import requests
 
 
